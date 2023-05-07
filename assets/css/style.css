@@ -8,84 +8,83 @@ body {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 4vh;
+    margin-bottom: 0.1vh;
     float: right;
-  }
-  
-  nav {
-    background-color: #47a91a;
-    color: #ffffff;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-  } 
-  
-  nav li a:hover { 
-    padding:0.3em 0.4em;
-    border-radius:1em;
-    box-sizing: border-box;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#ffffff;
-    background-color:#04614d;
-    transition: all 0.5s;
+}
 
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-    margin-top: 13%;
-  }
-  nav li a {
-    color: #ffffff;
-    text-decoration: none;
-    width: 210px;
-    font-family:'Roboto',sans-serif;
-  }
-  
-   nav img    {
-    height: 60px;
-    width: 60px;
-    margin-left: 15px;
-    margin-top: 10px;
-  }
-  
-  .welcome { font-family: Comic Sans MS;
+nav {
+  background-color: #47a91a;
+  color: #ffffff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+} 
+
+nav li a:hover { 
+  padding:0.3em 0.4em;
+  border-radius:1em;
+  box-sizing: border-box;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#ffffff;
+  background-color:#04614d;
+  transition: all 0.5s;
+
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding-right: 1em;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  width: 210px;
+  font-family:'Roboto',sans-serif;
+}
+
+nav img    {
+  height: 60px;
+  width: 60px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.welcome { 
+  font-family: Comic Sans MS;
   font-size: 26px;
-  }
+}
 
-  .content {
-    border: 5px solid;
+.content {
+  border: 5px solid;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  }
+}
 
-  .Anfragen {
+.Anfragen {
+  margin-left: 10%;
+}
 
-    margin-left: 10%;
-    }
-
-    .Erklärung {
-      margin-left: 10%;
+.Erklärung {
+  margin-left: 10%;
   font-size: 18px;
+}
 
-    }
-    .Anzeige {
-margin-left: 10%;
+.Anzeige {
+  margin-left: 10%;
+}
 
-    }
-
-    .Vernetzung {
-      margin-left: 10%;
-      
-          }
+.Vernetzung {
+  margin-left: 10%;    
+}
 
 
-          .Antworten {
-            margin-left: 10%;
-            
-                }
+.Antworten {
+  margin-left: 10%;
+}
